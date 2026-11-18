@@ -1,0 +1,15 @@
+schema_version = "1.0.0"
+
+id = "chromehounds_importer"
+version = "0.1.0"
+name = "Chromehounds Importer"
+tagline = "Import Chromehounds models, textures, animations, and maps"
+maintainer = "Chromehounds Blender contributors"
+type = "add-on"
+
+tags = ["Import-Export", "Game Engine"]
+blender_version_min = "5.2.0"
+license = ["SPDX:MIT"]
+
+[permissions]
+files = "Read selected Chromehounds ISO images and extracted assets"

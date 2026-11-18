@@ -1,0 +1,20 @@
+{
+  "$schema": "../chromehounds_importer/chbuild.schema.json",
+  "version": 1,
+  "name": "Example HOUND Assembly",
+  "parts": [
+    {
+      "id": "base",
+      "asset": "parts/CK_CA001.bnd"
+    },
+    {
+      "id": "weapon",
+      "asset": "parts/WP_GN001.bnd",
+      "parent": "base",
+      "socket": 200,
+      "location": [0.0, 0.0, 0.0],
+      "rotation_degrees": [0.0, 0.0, 0.0],
+      "scale": [1.0, 1.0, 1.0]
+    }
+  ]
+}
